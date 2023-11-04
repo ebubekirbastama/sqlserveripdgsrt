@@ -1,4 +1,4 @@
-$adapter = Get-NetAdapter -Name "Ethernet" # Adaptör adını değiştirebilirsiniz
+$adapter = Get-NetAdapter -Name "Ethernet" # Adaptör adını değiştirmeyi unutmayın
 $ipAddress = "192.168.1.40"
 $subnetMask = "255.255.255.0"
 $gateway = "192.168.1.1"
